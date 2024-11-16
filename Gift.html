@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Это для тебя зайчик</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffe6f1;
+        }
+
+        header h1 {
+            text-align: center;
+            font-size: 3rem;
+            color: #ff66b2;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #ff66b2;
+        }
+
+        .main-content {
+            text-align: center;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .main-content h2 {
+            font-size: 2rem;
+            color: #ff66b2;
+            margin-bottom: 10px;
+        }
+
+        .main-content p {
+            font-size: 1.2rem;
+            color: #ff66b2;
+            margin-bottom: 20px;
+        }
+
+        .hearts {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .heart {
+            font-size: 2rem;
+            color: #ff3366;
+            animation: heart-beat 1s infinite;
+        }
+
+        @keyframes heart-beat {
+            0% {
+                transform: scale(1);
+            }
+            25% {
+                transform: scale(1.2);
+            }
+            50% {
+                transform: scale(1);
+            }
+            75% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 1rem;
+            color: #ff66b2;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            .main-content h2 {
+                font-size: 1.8rem;
+            }
+
+            .main-content p {
+                font-size: 1rem;
+            }
+
+            .heart {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Подарочек небольшой</h1>
+            <p>Я тебя люблю мой котёнок, бесконечно сильно❤️❤️❤️</p>
+        </header>
+
+        <section class="main-content">
+            <h2>От сердца и почек тебе цветочек</h2>
+            <p>Мы подготовили для тебя этот сайт-подарок. Пусть каждый день будет полон счастья!</p>
+
+            <p><a href="https://giftforyou" target="_blank" style="color: #ff66b2; font-size: 1.5rem; text-decoration: none; font-weight: bold;">Перейти на мой сайт</a></p>
+
+            <div class="image-container">
+                <img src="emoji.png" alt="Это тебе">
+            </div>
+
+            <div class="container">
+                <header class="header">
+                    <h1>А вот это мы❤️</h1>
+                </header>
+
+                <div class="image-container">
+                    <img src="cats1.jpg" alt="Это мы❤️">
+                </div>
+                
+                <div class="hearts">
+                    <span class="heart">❤️</span>
+                    <span class="heart">❤️</span>
+                    <span class="heart">❤️</span>
+                </div>
+            </div>
+        </section>
+
+</body>
+</html>
+
+
+
